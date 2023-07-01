@@ -4,6 +4,7 @@ import { pathsToModuleNameMapper } from 'ts-jest'
 const config: Config = {
   clearMocks: true,
   collectCoverage: true,
+  coveragePathIgnorePatterns: ['tests'],
   coverageDirectory: 'coverage',
   coverageProvider: 'v8',
   transform: {

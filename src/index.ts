@@ -1,3 +1,26 @@
-import main from './main'
+import {
+  mockClass,
+  mockFn,
+  mockFunction,
+  mockFunctionDeep
+} from './mockers'
 
-export default main
+import {
+  unmockClass,
+  unmockFn,
+  unmockFunction,
+  unmockFunctionDeep
+} from './unmockers'
+
+export {
+  // mockers
+  mockClass,
+  mockFn,
+  mockFunction,
+  mockFunctionDeep,
+  // unmockers
+  unmockClass,
+  unmockFn,
+  unmockFunction,
+  unmockFunctionDeep
+}
