@@ -1,6 +1,6 @@
 {
   "name": "@mnrendra/jest-utils",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "Jests utilities.",
   "private": false,
   "main": "dist/index.js",
